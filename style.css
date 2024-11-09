@@ -100,6 +100,10 @@ h2{
 section{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    /* justify-content: space-around; */
+    align-items: center;
 }
 .caja{
     height: 120px;
